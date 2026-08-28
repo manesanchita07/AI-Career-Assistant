@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Career Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>AI Career Assistant 🤖</h1>
+        <p>Create your career profile</p>
+
+        <form id="profileForm">
+
+            <label for="name">Name</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label for="education">Education</label>
+            <input
+                type="text"
+                id="education"
+                placeholder="e.g. B.Tech AI & Data Science"
+                required
+            >
+
+            <label for="skills">Skills</label>
+            <input
+                type="text"
+                id="skills"
+                placeholder="e.g. Python, SQL, Machine Learning"
+                required
+            >
+
+            <label for="interests">Interests</label>
+            <input
+                type="text"
+                id="interests"
+                placeholder="e.g. AI, Web Development"
+                required
+            >
+
+            <label for="career_goal">Career Goal</label>
+            <input
+                type="text"
+                id="career_goal"
+                placeholder="e.g. AI Engineer"
+                required
+            >
+
+            <button type="submit">Create Profile</button>
+
+        </form>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
